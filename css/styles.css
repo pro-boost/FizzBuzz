@@ -114,16 +114,16 @@ p{
         font-size: 1rem;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 40px !important;
         font-weight: 700;
     }
     .header {
-        padding: 15px;
+        padding: 5px;
     }
 }
 
 @media (max-height: 600px) {
-    .footer, .header, .none , .rules {
+     .none , .rules {
         display: none;
     }
     .game-core {
@@ -134,7 +134,7 @@ p{
     }
 }
 @media (max-width: 400px) {
-    .footer, .header, .none, .rules {
+     .none, .rules {
         display: none;
     }
     .game-core {
